@@ -28,4 +28,4 @@ class simple(scrapy.Spider):
                            yield items;
                            #next_page=response.css("a::attr('href')").get()
                            #print("this is nextpage",next_page)
-                           #if next_page is not None:
+                           #if next_page is not Nonew:
