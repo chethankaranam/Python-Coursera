@@ -27,7 +27,7 @@ CREATE TABLE Member (
     PRIMARY KEY (user_id, course_id)
 )
 ''')
-
+#
 fname = input('Enter file name: ')
 if len(fname) < 1:
     fname = 'roster_data.json'
